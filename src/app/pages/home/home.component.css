@@ -1,0 +1,19 @@
+.my-navbar {
+  background-color: #404040;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.body {
+  background-color: white;
+  height: 100%;
+}
+
+.table {
+  background-color: #ebebeb;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 0.25rem;
+}

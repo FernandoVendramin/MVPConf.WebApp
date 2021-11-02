@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default my-navbar">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a class="navbar-brand">
+            <img src="assets/img/logo-branco.png" class="logo" width="150">
+          </a>
+          <span class="navbar-brand">MVP Conference - 2021</span>
+      </div>     
+  </div>
+</nav>
+<div class="body">
+  <div class="container">
+    <div class="row">
+      <h3 class="col-md-12 mt-3">Produtos</h3>
+    </div>
+    
+    <div class="row mt-2">
+      <div class="col-md-12">
+        <button class="btn btn-secondary" (click)="getProducts()">Carregar Produtos</button>
+      </div>
+    </div>
+
+    <div class="m-5">
+      <div class="spinner-border text-danger" role="status" [hidden]="!loading">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    
+    <div class="row table" *ngFor="let product of products">      
+        <div class="col-md-2">{{product.name}}</div>
+        <div class="col-md-8">{{product.description}}</div>
+        <div class="col-md-2">{{product.price | currency}}</div>
+    </div>
+  </div>
+</div>

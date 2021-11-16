@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: "https://61817fa132c9e20017804840.mockapi.io/"
+  baseUrl: "https://qa-mvpconf-web.azurewebsites.net/"
 };
 
 /*

@@ -1,4 +1,4 @@
 export const environment = {
-  production: false,
-  baseUrl: "https://qa-mvpconf-web.azurewebsites.net/"
+  production: true,
+  baseUrl: "https://mvpconf-web.azurewebsites.net/"
 };
